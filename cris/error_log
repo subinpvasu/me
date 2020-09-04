@@ -1,0 +1,63 @@
+[18-Aug-2020 12:12:10 UTC] PHP Notice:  Undefined variable: tokens in /home/s7fd7h77uqy1/public_html/cris/index.php on line 24
+[18-Aug-2020 12:12:10 UTC] PHP Fatal error:  Uncaught UnexpectedValueException: All of 'clientId', 'clientSecret', and 'refreshToken' must be set when using installed/web application flow. in /home/s7fd7h77uqy1/public_html/cris/src/Google/Ads/GoogleAds/Lib/OAuth2TokenBuilder.php:223
+Stack trace:
+#0 /home/s7fd7h77uqy1/public_html/cris/src/Google/Ads/GoogleAds/Lib/OAuth2TokenBuilder.php(171): Google\Ads\GoogleAds\Lib\OAuth2TokenBuilder->validate()
+#1 /home/s7fd7h77uqy1/public_html/cris/Advertising.php(48): Google\Ads\GoogleAds\Lib\OAuth2TokenBuilder->build()
+#2 /home/s7fd7h77uqy1/public_html/cris/Processor.php(44): Adwords\Advertising->createClient('6076703147')
+#3 /home/s7fd7h77uqy1/public_html/cris/index.php(24): Processor->get_account_details(NULL)
+#4 {main}
+  thrown in /home/s7fd7h77uqy1/public_html/cris/src/Google/Ads/GoogleAds/Lib/OAuth2TokenBuilder.php on line 223
+[18-Aug-2020 12:12:18 UTC] PHP Notice:  Undefined variable: tokens in /home/s7fd7h77uqy1/public_html/cris/index.php on line 24
+[18-Aug-2020 12:12:18 UTC] PHP Fatal error:  Uncaught UnexpectedValueException: All of 'clientId', 'clientSecret', and 'refreshToken' must be set when using installed/web application flow. in /home/s7fd7h77uqy1/public_html/cris/src/Google/Ads/GoogleAds/Lib/OAuth2TokenBuilder.php:223
+Stack trace:
+#0 /home/s7fd7h77uqy1/public_html/cris/src/Google/Ads/GoogleAds/Lib/OAuth2TokenBuilder.php(171): Google\Ads\GoogleAds\Lib\OAuth2TokenBuilder->validate()
+#1 /home/s7fd7h77uqy1/public_html/cris/Advertising.php(48): Google\Ads\GoogleAds\Lib\OAuth2TokenBuilder->build()
+#2 /home/s7fd7h77uqy1/public_html/cris/Processor.php(44): Adwords\Advertising->createClient('6076703147')
+#3 /home/s7fd7h77uqy1/public_html/cris/index.php(24): Processor->get_account_details(NULL)
+#4 {main}
+  thrown in /home/s7fd7h77uqy1/public_html/cris/src/Google/Ads/GoogleAds/Lib/OAuth2TokenBuilder.php on line 223
+[18-Aug-2020 12:12:36 UTC] PHP Notice:  Undefined variable: tokens in /home/s7fd7h77uqy1/public_html/cris/index.php on line 24
+[18-Aug-2020 12:12:36 UTC] PHP Fatal error:  Uncaught UnexpectedValueException: All of 'clientId', 'clientSecret', and 'refreshToken' must be set when using installed/web application flow. in /home/s7fd7h77uqy1/public_html/cris/src/Google/Ads/GoogleAds/Lib/OAuth2TokenBuilder.php:223
+Stack trace:
+#0 /home/s7fd7h77uqy1/public_html/cris/src/Google/Ads/GoogleAds/Lib/OAuth2TokenBuilder.php(171): Google\Ads\GoogleAds\Lib\OAuth2TokenBuilder->validate()
+#1 /home/s7fd7h77uqy1/public_html/cris/Advertising.php(48): Google\Ads\GoogleAds\Lib\OAuth2TokenBuilder->build()
+#2 /home/s7fd7h77uqy1/public_html/cris/Processor.php(44): Adwords\Advertising->createClient('6076703147')
+#3 /home/s7fd7h77uqy1/public_html/cris/index.php(24): Processor->get_account_details(NULL)
+#4 {main}
+  thrown in /home/s7fd7h77uqy1/public_html/cris/src/Google/Ads/GoogleAds/Lib/OAuth2TokenBuilder.php on line 223
+[26-Aug-2020 18:19:21 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getValue() on null in /home/s7fd7h77uqy1/public_html/cris/Advertising.php:84
+Stack trace:
+#0 /home/s7fd7h77uqy1/public_html/cris/Processor.php(50): Adwords\Advertising->GetAccountInfo(Object(Google\Ads\GoogleAds\Lib\V4\GoogleAdsClient), 1529132047)
+#1 /home/s7fd7h77uqy1/public_html/cris/index.php(24): Processor->get_account_details(Array)
+#2 {main}
+  thrown in /home/s7fd7h77uqy1/public_html/cris/Advertising.php on line 84
+[26-Aug-2020 20:00:22 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getValue() on null in /home/s7fd7h77uqy1/public_html/cris/Advertising.php:84
+Stack trace:
+#0 /home/s7fd7h77uqy1/public_html/cris/Processor.php(50): Adwords\Advertising->GetAccountInfo(Object(Google\Ads\GoogleAds\Lib\V4\GoogleAdsClient), 1529132047)
+#1 /home/s7fd7h77uqy1/public_html/cris/index.php(24): Processor->get_account_details(Array)
+#2 {main}
+  thrown in /home/s7fd7h77uqy1/public_html/cris/Advertising.php on line 84
+[27-Aug-2020 09:42:03 UTC] PHP Notice:  Undefined index: refresh_token in /home/s7fd7h77uqy1/public_html/cris/Processor.php on line 38
+[27-Aug-2020 09:42:03 UTC] PHP Fatal error:  Uncaught UnexpectedValueException: All of 'clientId', 'clientSecret', and 'refreshToken' must be set when using installed/web application flow. in /home/s7fd7h77uqy1/public_html/cris/src/Google/Ads/GoogleAds/Lib/OAuth2TokenBuilder.php:223
+Stack trace:
+#0 /home/s7fd7h77uqy1/public_html/cris/src/Google/Ads/GoogleAds/Lib/OAuth2TokenBuilder.php(171): Google\Ads\GoogleAds\Lib\OAuth2TokenBuilder->validate()
+#1 /home/s7fd7h77uqy1/public_html/cris/Advertising.php(48): Google\Ads\GoogleAds\Lib\OAuth2TokenBuilder->build()
+#2 /home/s7fd7h77uqy1/public_html/cris/Processor.php(43): Adwords\Advertising->createClient('9613970078')
+#3 /home/s7fd7h77uqy1/public_html/cris/index.php(24): Processor->get_account_details(Array)
+#4 {main}
+  thrown in /home/s7fd7h77uqy1/public_html/cris/src/Google/Ads/GoogleAds/Lib/OAuth2TokenBuilder.php on line 223
+[27-Aug-2020 09:42:08 UTC] PHP Notice:  Undefined index: refresh_token in /home/s7fd7h77uqy1/public_html/cris/Processor.php on line 38
+[27-Aug-2020 09:42:08 UTC] PHP Fatal error:  Uncaught UnexpectedValueException: All of 'clientId', 'clientSecret', and 'refreshToken' must be set when using installed/web application flow. in /home/s7fd7h77uqy1/public_html/cris/src/Google/Ads/GoogleAds/Lib/OAuth2TokenBuilder.php:223
+Stack trace:
+#0 /home/s7fd7h77uqy1/public_html/cris/src/Google/Ads/GoogleAds/Lib/OAuth2TokenBuilder.php(171): Google\Ads\GoogleAds\Lib\OAuth2TokenBuilder->validate()
+#1 /home/s7fd7h77uqy1/public_html/cris/Advertising.php(48): Google\Ads\GoogleAds\Lib\OAuth2TokenBuilder->build()
+#2 /home/s7fd7h77uqy1/public_html/cris/Processor.php(43): Adwords\Advertising->createClient('9613970078')
+#3 /home/s7fd7h77uqy1/public_html/cris/index.php(24): Processor->get_account_details(Array)
+#4 {main}
+  thrown in /home/s7fd7h77uqy1/public_html/cris/src/Google/Ads/GoogleAds/Lib/OAuth2TokenBuilder.php on line 223
+[27-Aug-2020 09:54:55 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getValue() on null in /home/s7fd7h77uqy1/public_html/cris/Advertising.php:84
+Stack trace:
+#0 /home/s7fd7h77uqy1/public_html/cris/Processor.php(50): Adwords\Advertising->GetAccountInfo(Object(Google\Ads\GoogleAds\Lib\V4\GoogleAdsClient), 1529132047)
+#1 /home/s7fd7h77uqy1/public_html/cris/index.php(24): Processor->get_account_details(Array)
+#2 {main}
+  thrown in /home/s7fd7h77uqy1/public_html/cris/Advertising.php on line 84
