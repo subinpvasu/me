@@ -7,10 +7,10 @@
  
 class Credentials{
     public static $MASTER_ID = '6076703147';    
-    public static $CLIENT_ID = '435665370423-h80snqui3lpjti2j1bo3jato5qrutitb.apps.googleusercontent.com';
-    public static $CLIENT_SECRET = 'fEAg7llOzq8f2myofd80icvd';
+    public static $CLIENT_ID = '1047151772953-fu7o7g4rvur19tk37qip4m10qpgjqmsg.apps.googleusercontent.com';
+    public static $CLIENT_SECRET = 'oMHe2_pL4CwQGdhVw1Z9FeN3';
     public static $DEVELOPER_TOKEN = '164oteZ_x-t9PxaFy1Mikg';
-    public static $REFRESH_TOKEN = '1//05VpBEymo5IebCgYIARAAGAUSNwF-L9Irx55UDuOiwnsst3PG2gP4eiDxdnkC8fKcXJJhwF4jvb7M7PwcFLaGN3Br4ocBZLMx7AI';
+    public static $REFRESH_TOKEN = '1//04v3HF0SCU2YwCgYIARAAGAQSNwF-L9Ir_cW6BptBiWnp9c0_8SUwHnQq9kA5U10bp4FpApU-YPsAvAXn3HHD2ylHoSXKpAcK8FI';
     public static $STATUS_FIELD = 16;
     public static $PAGE_LIMIT = 500;
     public static $REDIRECT_URI = 'https://subinpvasu.herokuapp.com/cris/index.php';
