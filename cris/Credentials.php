@@ -13,7 +13,7 @@ class Credentials{
     public static $REFRESH_TOKEN = '1//0gUofpRkkIC5-CgYIARAAGBASNwF-L9Irg4lPpR3-NAlXm5EFhE7JgbxJ3dqI9ROUPW0n3Cse2X-PJL2BrtHRYXytwkogxg49bEw';
     public static $STATUS_FIELD = 16;
     public static $PAGE_LIMIT = 500;
-    public static $REDIRECT_URI = 'http://subinpvasu.xyz/cris/index.php';
+    public static $REDIRECT_URI = 'https://subinpvasu.herokuapp.com/cris/index.php';
     public static $AUTHORIZATION_URI = 'https://accounts.google.com/o/oauth2/v2/auth';
     public static $TOKEN_CREDENTIAL_URI = 'https://oauth2.googleapis.com/token';
     public static $SCOPE = 'https://www.googleapis.com/auth/adwords';
