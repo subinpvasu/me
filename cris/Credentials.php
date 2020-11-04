@@ -16,7 +16,7 @@ class Credentials{
     public static $REDIRECT_URI = 'https://subinpvasu.herokuapp.com/cris/index.php';
     public static $AUTHORIZATION_URI = 'https://accounts.google.com/o/oauth2/v2/auth';
     public static $TOKEN_CREDENTIAL_URI = 'https://oauth2.googleapis.com/token';
-    public static $SCOPE = 'https://www.googleapis.com/auth/adwords, https://www.googleapis.com/auth/script.deployments, https://www.googleapis.com/auth/script.deployments.readonly, https://www.googleapis.com/auth/script.metrics, https://www.googleapis.com/auth/script.processes, https://www.googleapis.com/auth/script.projects, https://www.googleapis.com/auth/script.projects.readonly';
+    public static $SCOPE = 'https://www.googleapis.com/auth/adwords';
  
             
 }
