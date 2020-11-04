@@ -44,7 +44,6 @@ class Processor {
         echo $tokens['refresh_token'].'<br/>';
         echo '<pre>';
         print_r($accounts);
-		exit();
         echo '</pre>';
         foreach ($accounts as $account)
         {   
