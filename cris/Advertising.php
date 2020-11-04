@@ -70,7 +70,7 @@ class Advertising
         // Iterates over all accessible customers' resource names and prints them.
         foreach ($accessibleCustomers->getResourceNames() as $resourceName) {
             $customerid  = preg_replace( '/[^0-9]/', '', $resourceName );
-            $accounts[] = $customerid;
+            $accounts[] = $resourceName;
         }
         return $accounts;
     }
